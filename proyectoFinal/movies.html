@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Movie Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="padre">
+        <h1 class="hijo">CINE</h1>
+        <nav class="padre2">
+            <ul>
+                <li><a href="home.html" class="hijo2">HOME</a></li>
+                <li><a href="movies.html" class="hijo2">PELÍCULAS</a></li>
+                <li><a href="profesional.html" class="hijo2">PROFESIONALES</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="movies">
+        
+        <form id="add-movie-form">
+            <h3>FORMULARIO</h3>
+            <input type="text" id="title" placeholder="TÍTULO" required>
+            <input type="date" id="release-year" placeholder="AÑO DE LANZAMIENTO" required>
+            <input type="text" id="actors" placeholder="ACTORES" required>
+            <input type="text" id="writer" placeholder="GUIONISTA" required>
+            <input type="text" id="director" placeholder="DIRECTOR" required>
+            <input type="text" id="photo" placeholder="URL DE LA IMAGEN" required>
+            <button type="button" id="add-movie-btn">AGREGAR PELÍCULA</button>
+        </form>
+        <h2>PELÍCULAS</h2>
+        <div id="movie-list">
+            </div>
+    </section>
+    <div class="nada"></div>
+    <footer class="padre3">
+        <a href="" class="hijo3">FACEBOOK</a>
+        <a href="" class="hijo3">INSTAGRAM</a>
+        <a href="" class="hijo3">YOUTUBE</a>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
